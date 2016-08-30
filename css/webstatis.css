@@ -1,0 +1,158 @@
+body{
+background: url(../gambar/32-riem.gif);
+}
+*{margin: 0px; padding: 0px}
+header, footer, section, nav{display: block;}
+.webstatis{
+margin: 20 auto;
+width: 980px
+}
+#logo{
+	float: left;
+	height: 120px;
+	margin-right: 10px;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+#judul{
+background:url("../gambar/hitam.jpg"); backgroun-size: contain;
+height: 115px;
+margin: 15px auto -15px auto;
+padding: 10px 0px 20px 0px;
+border-radius: 10px 10px 0 0;
+box-shadow: 0 0 15px rgb(0,0,0) inset;
+}
+#judul h1{
+	font-size: 30px;
+	line-height: 38px;
+	font-size: 35px;
+	color: blue;
+}
+#judul h2{
+margin-top:10px;
+font-size: 35px;
+font-weight: 300px;
+color: green;
+}
+#menu ul{
+	background: url(../gambar/bk.jpg);
+	neverfloaw: auto;
+	padding-left: 0px;
+	padding-right: 90px;
+	position: static;
+}
+#nav,#nav ul {
+	width: 100%;
+    background-image:url(..gambar/h.jpg);
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+#nav {
+    height:41px;
+    padding-left:5px;
+    padding-top:5px;
+    position:relative;
+    z-index:2;
+}
+#nav ul {
+    left:-9999px;
+    position:absolute;
+    top:37px;
+    width:auto;
+}
+#nav ul ul {
+    left:-9999px;
+    position:absolute;
+    top:0;
+    width:auto;
+}
+#nav li {
+    float:left;
+    margin-right:5px;
+    position:relative;
+}
+#nav li a {
+    background:#c1c1bf;
+    color:#000;
+    display:block;
+    float:left;
+    font-size:16px;
+    padding:8px 10px;
+    text-decoration:none;
+}
+#nav > li > a {
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    -o-border-radius:6px;
+    border-radius:6px;
+
+    overflow:hidden;
+}
+#nav li a.fly {
+    background:#c1c1bf url(../images/arrow.gif) no-repeat right center;
+    padding-right:15px;
+}
+#nav ul li {
+    margin:10;
+}
+#nav ul li a {
+    width:120px;
+}
+#nav ul li a.fly {
+    padding-right:10px;
+}
+
+/*hover styles*/
+#nav li:hover > a {
+    background-color:#858180;
+    color:#fff;
+}
+
+/*focus styles*/
+    #nav li a:focus {
+    outline-width:10;
+}
+
+/*popups*/
+#nav li a:active + ul.dd,#nav li a:focus + ul.dd,#nav li ul.dd:hover {
+    left:0;
+}
+#nav ul.dd li a:active + ul,#nav ul.dd li a:focus + ul,#nav ul.dd li ul:hover {
+    left:140px;
+}
+
+/*bagian isi*/
+#konten{
+	background: url(../<img src="images.jpg");
+float: left;
+width: 740px;
+height: 450px;
+box-shadow: 0 0 25px rgb(0,0,0) inset;
+padding-left: 20px;
+}
+#sidebar{
+	background: url(../gambar/alma-wade.png);
+float: left;
+width: 157px;
+height: 450px;
+padding-left: 20px;
+box-shadow: 0 0 25px rgb(0,0,0) inset;
+}
+
+/*bagian bawah/footer*/
+footer{
+	background: url(../gambar/naga.jpg);
+clear: both;
+width: 100;
+padding-right: 2px;
+padding-top: 2px;
+padding-bottom: 2px;
+font-family: verdana;
+font-size: 20px;
+text-align: center;
+border-radius: 0 0 10px 10px;
+box-shadow: 0 0 10px rgb(0,0,0) inset; 
+}
+#menu{
+background: url(../gambar/takut.gif);
+}
